@@ -1,0 +1,8 @@
+How to run:
+
+h2 python3 Server.py output.txt &
+
+h1 python3 Client.py 10.0.0.2 tux.txt
+
+
+Sending will timeout due to the ACK not being recieved but the file is sent.
